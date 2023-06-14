@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "GoogleCast",
-    platforms: platforms: [
+    platforms: [
         .iOS(.v12),
         .tvOS(.v12)
     ],
