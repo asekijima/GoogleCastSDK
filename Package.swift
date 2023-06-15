@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GoogleCast",
-            url: "https://testcastbucket.s3.amazonaws.com/GoogleCast.xcframework.zip",
-            checksum: "422e11451ca8bfc028d2c1309add4d1cabbc5c03d780e797dee3659f9fbff43e"
+            url: "https://testcastbucket.s3.amazonaws.com/GoogleCast_dynamic.xcframework.zip",
+            checksum: "740467a3ae0bdff5c8013509e4e02979aa2c4076c66ae9666410dfea85818c0c"
         ),
     ]
 )
