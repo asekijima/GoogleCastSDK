@@ -19,7 +19,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GoogleCastSDK",
-            url: "https://www.mediafire.com/file/rdzu2jrm55ggxhg/GoogleCast.xcframework.zip/file",
+            url: "https://testcastbucket.s3.amazonaws.com/GoogleCast.xcframework.zip",
 //            checksum: "47289b356e318bc20b841f4adf34bd490e2ca8d62dcb231ac99a610ac4be9513"
             checksum: "422e11451ca8bfc028d2c1309add4d1cabbc5c03d780e797dee3659f9fbff43e"
         ),
