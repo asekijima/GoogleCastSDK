@@ -18,9 +18,12 @@ let package = Package(
     dependencies: [],
     targets: [
         .binaryTarget(
-            name: "GoogleCast",
-            url: "https://github.com/asekijima/FileDrop/blob/main/GoogleCast.xcframework.zip",
+            name: "GoogleCastSDK",
+            url: "https://github.com/asekijima/GoogleCastSDK/blob/main/GoogleCast.xcframework.zip",
             checksum: "47289b356e318bc20b841f4adf34bd490e2ca8d62dcb231ac99a610ac4be9513"
         ),
+        .target(
+            name: "GoogleCast",
+            dependencies: ["GoogleCastSDK"])
     ]
 )
