@@ -4,22 +4,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "GoogleCast",
+    name: "apple-third-party",
     platforms: [
         .iOS(.v14)
     ],
     products: [
+        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "GoogleCast",
-            targets: ["GoogleCast"]
-        ),
+            targets: ["GoogleCast"]),
     ],
-    dependencies: [],
     targets: [
         .binaryTarget(
-            name: "GoogleCast",
-            url: "https://testcastbucket.s3.amazonaws.com/GoogleCast_dynamic.xcframework.zip",
-            checksum: "740467a3ae0bdff5c8013509e4e02979aa2c4076c66ae9666410dfea85818c0c"
-        ),
+                    name: "GoogleCast",
+                    path: "Binaries/GoogleCast.xcframework"
+                )
     ]
 )
