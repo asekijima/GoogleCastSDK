@@ -1,8 +1,12 @@
 framework module GoogleCast {
   umbrella header "GoogleCast.h"
+  
+
   export *
   module * { export * }
   link framework "AVFoundation"
+  link framework "AVKit"
+  link framework "AVRouting"
   link framework "Accelerate"
   link framework "AudioToolbox"
   link framework "CFNetwork"
